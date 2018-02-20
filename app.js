@@ -40,9 +40,6 @@ dotButton.addEventListener('click', event => {
 for (let i = 0; i < operatorButtons.length; i++) {
   operatorButtons[i].addEventListener('click', registerOperator)
 }
-for (let i = 0; i < operatorButtons.length; i++) {
-  operatorButtons[i].addEventListener('touchstart', registerOperator)
-}
 
 function registerOperator (event) {
   if (operator) {
